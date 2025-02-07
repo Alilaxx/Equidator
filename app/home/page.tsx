@@ -54,6 +54,20 @@ export default function HomePage() {
               View Portfolio
             </Button>
           </div>
+          <div className="bg-gray-50 p-6 rounded-lg shadow-md">
+            <h2 className="text-xl font-semibold mb-4">Calculate RRR</h2>
+            <p className="text-gray-600 mb-4">Determine your Risk-Reward Ratio</p>
+            <Link href="/rrr-calculator">
+              <Button className="w-full bg-black text-white hover:bg-gray-800">Calculate RRR</Button>
+            </Link>
+          </div>
+          <div className="bg-gray-50 p-6 rounded-lg shadow-md">
+            <h2 className="text-xl font-semibold mb-4">View Stock Graph</h2>
+            <p className="text-gray-600 mb-4">Analyze stock performance visually</p>
+            <Link href="/results">
+              <Button className="w-full bg-black text-white hover:bg-gray-800">View Graph</Button>
+            </Link>
+          </div>
         </div>
       </main>
 
