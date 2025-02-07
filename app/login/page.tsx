@@ -9,9 +9,10 @@ export default function LoginPage() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Add login logic here
+    // Redirect to home page without authentication
+    window.location.href = "/home"
   }
 
   return (
